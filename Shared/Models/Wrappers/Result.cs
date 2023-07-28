@@ -92,6 +92,7 @@ namespace Shared.Models.Wrappers
     {
         public Result()
         {
+            Data = default;
         }
 
         public T Data { get; set; }
